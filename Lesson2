@@ -1,0 +1,32 @@
+package com.company;
+
+public class Main{
+
+    private void test(String[] args) {
+            int temperature = 30;
+            int ageOfAPerson = 45;
+
+        if (temperature > 20 && ageOfAPerson > 20 && temperature < 30|| ageOfAPerson < 45) {
+                System.out.println("Go for a walk");
+        } else {
+            System.out.println("Sit at home");
+        }
+        return;
+
+
+        if (temperature>0 && temperature<25  || ageOfAPerson < 20) {
+
+        } else {
+        System.out.println("Sit at home");
+        }
+        return;
+
+        if (ageOfAPerson > 45 && temperature>9 ||temperature<24) {
+            System.out.println("Sit at home");
+            }
+
+
+            }
+
+
+    }
